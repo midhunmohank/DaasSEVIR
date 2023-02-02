@@ -10,7 +10,7 @@ def get_files_noaa(station, year, month, day, hour):
         return "Not Valid Year"   
     else:
         prefix = year + "/" + month + "/" + day  + "/" + station
-        response = s3.list_objects_v2(Bucket=bucket_name, Prefix = "2022/01/05/KAMA")
+        response = s3.list_objects_v2(Bucket=bucket_name, Prefix = prefix)
         objects = response.get("Contents", []) 
         files = [obj["Key"] for obj in objects]
         files_hour = []
