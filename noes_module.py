@@ -2,12 +2,15 @@ import boto3
 
 #Function to get files given the station, year, month day and hour
 def get_files_noaa(station, year, month, day, hour):
+    
+    s3 = boto3.client("s3")
+    bucket_name = "noaa-nexrad-level2"
     if(year != "2022" and year != "2023"):
         print("Not a Valid Year")
         return "Not Valid Year"   
     else:
         prefix = year + "/" + month + "/" + day  + "/" + station
-        response = s3.list_objects_v2(Bucket=bucket_name, Prefix = "2022/01/05/KAMA")
+        response = s3.list_objects_v2(Bucket=bucket_name, Prefix = prefix)
         objects = response.get("Contents", []) 
         files = [obj["Key"] for obj in objects]
         files_hour = []
@@ -32,7 +35,10 @@ def copy_to_s3(src_file_key, src_bucket_name, dst_bucket_name):
 
 
 
-#get _files_noaa("KBHX", "2022", "11")
+
+
+
+print(get_files_noaa("KBHX", "2022", "11", "01", "05"))
 
 
 
