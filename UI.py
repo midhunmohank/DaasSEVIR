@@ -1,7 +1,7 @@
 import streamlit as st
 import datetime
 import pandas as pd
-import folium
+# import folium
 
 st.title("GOES")
 st.date_input("Date: ")
