@@ -131,3 +131,7 @@ dmypy.json
 
 # Notebook Checkpoints
 .ipynb_checkpoints/
+
+
+populating_ui_from_db_testing/map_viz.py
+metadata_db/data_viz.ipynb
