@@ -131,3 +131,5 @@ dmypy.json
 
 # Notebook Checkpoints
 .ipynb_checkpoints/
+metadata_scraping/files.db
+metadata_scraping/folder_names
