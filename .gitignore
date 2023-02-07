@@ -133,3 +133,4 @@ dmypy.json
 .ipynb_checkpoints/
 metadata_scraping/files.db
 metadata_scraping/folder_names
+metadata_scraping/noes_nexrad.csv
