@@ -135,3 +135,6 @@ dmypy.json
 
 populating_ui_from_db_testing/map_viz.py
 metadata_db/data_viz.ipynb
+populating_ui_from_db_testing/.DS_Store
+.gitignore
+.gitignore
