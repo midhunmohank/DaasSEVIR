@@ -7,17 +7,16 @@
 ## Summary 
 The project is for a geospatial startup, building a data ETL tool to make it easier for data analysts to access and download publicly available data from the NOA website. The tool is built using Streamlit and the datasets chosen for exploration are the NexRad and GOES satellite datasets.
 
-The project was split into three parts:
+## Technologies Used:
+<l>
+<li>Streamlit</li> UI
+<li>AWS S3</li> Data Transfer b/w the public s3 buckets of SEVIR and our platform
+<li>SQLite DB</li> UI form population
+<li>AWS CloudWatch</li> Logging
+<li>Great Expectations</li> Data Quality
+</l> <br>
 
-Exploration of the GEOS dataset
-
-Exploration of the NexRad dataset:
-
-Plotting of NexRad locations:
-
-
-
-#### Contribution: <br>
+## Contribution: <br>
 ● Midhun Mohan Kudayattutharayil
 ● Sanjay Kashyap
 ● Snehil Aryan
