@@ -16,12 +16,11 @@ Exploration of the NexRad dataset:
 Plotting of NexRad locations:
 
 
-#### WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR ASSIGNMENT
-AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK
+
 #### Contribution: <br>
-● Midhun Mohan Kudayattutharayil: 25% <br>
-● Sanjay Kashyap: 25% <br>
-● Snehil Aryan: 25% <br>
-● Vikash Singh: 25% <br>
+● Midhun Mohan Kudayattutharayil
+● Sanjay Kashyap
+● Snehil Aryan
+● Vikash Singh
 
 
